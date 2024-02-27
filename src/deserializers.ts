@@ -55,7 +55,7 @@ export function deserializeApiDataItem(apiResponse: any, apiResponseDescription:
     apiResponse.pictures[0]?.url,
     apiResponse.condition,
     apiResponse.shipping.free_shipping,
-    apiResponse.sold_quantity,
+    apiResponse.initial_quantity,
     apiResponseDescription.plain_text
   )
 

@@ -18,7 +18,7 @@ export class Item {
     picture: string,
     condition: string,
     freeShipping: boolean,
-    soldQuantity?: number,
+    initialQuantity?: number,
     description?: string,
     seller?: string
   ) {
@@ -28,7 +28,7 @@ export class Item {
     this.picture = picture;
     this.condition = condition;
     this.freeShipping = freeShipping;
-    this.soldQuantity = soldQuantity;
+    this.soldQuantity = initialQuantity;
     this.description = description;
     this.seller = seller;
   }

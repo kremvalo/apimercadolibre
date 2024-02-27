@@ -23,10 +23,8 @@ export class AppController {
     @Param('idItem') idItem: string, 
   ): Promise<any> {
     try {
-      // if(!idItem) {
-        const result = await this.appService.getItem(idItem);
-        return result;
-      // }
+      const result = await this.appService.getItem(idItem);
+      return result;
     } catch (error) {
       return { error: error };
     }
