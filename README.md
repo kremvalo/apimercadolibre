@@ -2,6 +2,10 @@
 
 https://apimercadolibre.vercel.app/api/items?limit=4&q=pato
 
+## Requerimientos
+
+Node JS version v18.16.0
+
 ## Instalar dependencias
 
 ```bash
